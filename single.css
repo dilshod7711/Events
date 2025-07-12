@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    padding: 40px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #333;
+  }
+
+  .info {
+    margin-bottom: 25px;
+    color: #666;
+  }
+
+  .info p {
+    margin-bottom: 8px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  .section p {
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .register-btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #ff3f3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .register-btn:hover {
+    background-color: #e53935;
+  }
